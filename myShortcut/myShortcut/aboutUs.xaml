@@ -1,0 +1,49 @@
+﻿<phone:PhoneApplicationPage 
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+	xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="728"
+	x:Class="myShortcut.aboutUs"
+	FontFamily="{StaticResource PhoneFontFamilyNormal}"
+	FontSize="{StaticResource PhoneFontSizeNormal}"
+	Foreground="{StaticResource PhoneForegroundBrush}"
+	Orientation="Portrait"
+	shell:SystemTray.IsVisible="False">
+    <Grid x:Name="LayoutRoot" Margin="0,0,0,-96">
+        <Grid.Background>
+            <ImageBrush ImageSource="newPic.jpg" Stretch="UniformToFill" Opacity="0.7" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+        
+                   
+		
+		<!--TitlePanel contains the name of the application and page title-->
+		<StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+			<TextBlock x:Name="PageTitle" Text="about us" Margin="5,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontFamily="/UPTU Syllabus;component/Fonts/Fonts.zip#Lucida Grande" Height="86" Foreground="#FFF7EDED" FontWeight="Bold"/>
+		</StackPanel>
+
+		<!--ContentPanel - place additional content here-->
+		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,-50,12,50">
+			<TextBlock TextWrapping="Wrap" VerticalAlignment="Top" Margin="214,52,3,0" Height="124" FontFamily="/UPTU Syllabus;component/Fonts/Fonts.zip#Lucida Grande" FontWeight="Bold" FontSize="32" Foreground="#FF1E2985"><Run Text="Developed by:-"/><LineBreak/><Run Text="Saurabh Verma JSSATE Noida"/></TextBlock>
+			<TextBlock TextWrapping="Wrap" Text="about Application" Margin="16,271,0,0" FontFamily="/UPTU Syllabus;component/Fonts/Fonts.zip#Lucida Grande" FontWeight="Bold" Height="35" VerticalAlignment="Top" FontSize="24" HorizontalAlignment="Left" Width="207"/>
+			<TextBlock TextWrapping="Wrap" Margin="20,308,44,22" FontFamily="/UPTU Syllabus;component/Fonts/Fonts.zip#Lucida Grande" FontSize="20" Foreground="White"><Run FontWeight="Bold" Text="My Shortcuts V 1.1"/><LineBreak/><Run/><LineBreak/><Run Text="The application gives quick access to features such as WiFi, Network, Flight Mode, Marketplace, Email, Browser etc. What more you can pin individual tiles to start for quick access. Another feature is the direct search which enables you to instantly search your desired location in maps or your favorite application in Marketplace. The application is simple, smooth with no ads."/><LineBreak/><Run/><LineBreak/><Run Text="Please rate app suggesting improvements."/><LineBreak/><LineBreak/><Run FontWeight="Bold" Text="©Xanium Technologies"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+		</Grid>
+	</Grid>
+
+	<!--LayoutRoot is the root grid where all page content is placed-->
+
+    <!--Sample code showing usage of ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" Mode="Minimized">
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="rate us" Click="ApplicationBarMenuItem_Click"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+</phone:PhoneApplicationPage>

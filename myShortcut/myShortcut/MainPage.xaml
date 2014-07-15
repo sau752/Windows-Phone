@@ -1,0 +1,97 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="myShortcut.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="728"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush ImageSource="wal1l.jpg" Stretch="UniformToFill" Opacity="0.7" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="PageTitle" Text="My Shortcuts" Margin="-5,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontFamily="Lucida Grande" FontWeight="Bold"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Button Content="WiFi" Margin="0,20,0,0" VerticalAlignment="Top" Height="90" Width="197" FontFamily="Lucida Grande" FontWeight="Bold" BorderThickness="0" FontSize="40" HorizontalAlignment="Left" Click="Button_Click">
+                <toolkit:ContextMenuService.ContextMenu>
+                    <toolkit:ContextMenu>
+                        <toolkit:MenuItem Header="pin to start" Click="MenuItem_Click"/>
+                    </toolkit:ContextMenu>
+                </toolkit:ContextMenuService.ContextMenu>
+            </Button>
+            <Button Content="Cellular" Margin="0,20,0,0" VerticalAlignment="Top" Height="90" HorizontalAlignment="Right" Width="200" FontFamily="Lucida Grande" FontWeight="Bold" BorderThickness="0" FontSize="40" Click="Button_Click_1">
+                <toolkit:ContextMenuService.ContextMenu>
+                    <toolkit:ContextMenu>
+                        <toolkit:MenuItem Header="pin to start" Click="MenuItem_Click_1"/>
+                    </toolkit:ContextMenu>
+                </toolkit:ContextMenuService.ContextMenu>
+            </Button>
+            <Button Content="Flight" Margin="0,130,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="200" Height="90" FontFamily="Lucida Grande" BorderThickness="0" FontWeight="Bold" FontSize="40" Click="Button_Click_2">
+                <toolkit:ContextMenuService.ContextMenu>
+                    <toolkit:ContextMenu>
+                        <toolkit:MenuItem Header="pin to start" Click="MenuItem_Click_2"/>
+                    </toolkit:ContextMenu>
+                </toolkit:ContextMenuService.ContextMenu>
+            </Button>
+            <Button Content="Bluetooth" Margin="220,130,0,0" VerticalAlignment="Top" Height="90" FontFamily="Lucida Grande" FontWeight="Bold" BorderThickness="0" FontSize="40" Click="Button_Click_3">
+                <toolkit:ContextMenuService.ContextMenu>
+                    <toolkit:ContextMenu>
+                        <toolkit:MenuItem Header="pin to start" Click="MenuItem_Click_3"/>
+                    </toolkit:ContextMenu>
+                </toolkit:ContextMenuService.ContextMenu>
+            </Button>
+            <Button Content="Mail" HorizontalAlignment="Left" Margin="0,240,0,257" Width="200" FontFamily="Lucida Grande" FontWeight="Bold" BorderThickness="0" FontSize="40" Click="Button_Click_4" Height="90">
+                <!--<toolkit:ContextMenuService.ContextMenu>
+                    <toolkit:ContextMenu>
+                        <toolkit:MenuItem Header="pin to start" Click="MenuItem_Click_4"/>
+                    </toolkit:ContextMenu>
+                </toolkit:ContextMenuService.ContextMenu>-->
+            </Button>
+            <Button Content="SMS" HorizontalAlignment="Right" Margin="0,0,0,268" Width="200" Height="83" VerticalAlignment="Bottom" FontFamily="Lucida Grande" FontWeight="Bold" BorderThickness="0" FontSize="40" Click="Button_Click_5">
+                <!--<toolkit:ContextMenuService.ContextMenu>
+                    <toolkit:ContextMenu>
+                        <toolkit:MenuItem Header="pin to start" Click="MenuItem_Click_5"/>
+                    </toolkit:ContextMenu>
+                </toolkit:ContextMenuService.ContextMenu>-->
+            </Button>
+            <Button Content="Maps" HorizontalAlignment="Left" Margin="-4,0,0,50" Width="153" Height="90" VerticalAlignment="Bottom" FontFamily="Lucida Grande" FontWeight="Bold" BorderThickness="0" FontSize="40" Click="Button_Click_6">
+                
+            </Button>
+            <Button Content="Marketplace" Margin="164,0,-14,50" Height="90" VerticalAlignment="Bottom" FontFamily="Lucida Grande" FontWeight="Bold" BorderThickness="0" FontSize="42.667" Click="Button_Click_8"/>
+                <TextBox x:Name="mytextBox" Margin="8,0,0,130" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="84" BorderThickness="0" FontSize="40" FontFamily="Lucida Grande" FontWeight="Bold" Opacity="0.8"/>
+                <TextBlock HorizontalAlignment="Left" Margin="20,0,0,203" TextWrapping="Wrap" Text="Search in Maps or in Marketplace or simply open them" VerticalAlignment="Bottom" FontFamily="Lucida Grande" FontSize="16" Width="436"/>
+                <TextBlock HorizontalAlignment="Right" Margin="17,0,0,-1" TextWrapping="Wrap" Text="Note: Long click to pin above shortcuts to start" VerticalAlignment="Bottom" FontFamily="Lucida Grande" FontSize="16" Foreground="#FF86983B"/></Grid>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" BackgroundColor="#FF003913" Mode="Default">
+            <shell:ApplicationBarIconButton IconUri="/icons/social.like.png" Text="rate app" Click="ApplicationBarIconButton_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/icons/people.groups.png" Text="about us" Click="ApplicationBarIconButton_Click_2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="our other apps" Click="ApplicationBarMenuItem_Click_1"/>
+                <shell:ApplicationBarMenuItem Text="email us" Click="ApplicationBarIconButton_Click_1"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>
