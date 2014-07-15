@@ -1,0 +1,56 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="My_Location.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="728"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        
+        <Grid.Background>
+            <ImageBrush ImageSource="wall.jpg" Stretch="UniformToFill" Opacity="0.3" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="134"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="PageTitle" Text="My Location" Margin="3,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontFamily="/My_Location;component/Fonts/6216.ttf#Lucida Grande" Foreground="#FFCA8827"/>
+        </StackPanel>
+
+       <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+        	<TextBlock x:Name="myTextBlockButton" Margin="3,1,0,7" TextWrapping="Wrap" FontFamily="/My_Location;component/Fonts/6216.ttf#Lucida Grande" FontSize="48"/>
+        	<Button x:Name="myDataButton" Content="Data" HorizontalAlignment="Left" Margin="126,450,0,0" VerticalAlignment="Top" Width="101" BorderThickness="0" Click="myDataButton_Click"/>
+        	<Button x:Name="myWiFiButton" Content="WiFi" HorizontalAlignment="Right" Margin="0,450,107,0" VerticalAlignment="Top" Width="116" BorderThickness="0" Click="myWiFiButton_Click"/>
+        	<Button x:Name="myRefreshButton" Content="Refresh" Margin="126,516,0,0" VerticalAlignment="Top" Width="223" HorizontalAlignment="Left" BorderThickness="2" Click="myRefreshButton_Click"/></Grid>
+
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/icons/social.like.png" Text="rate app" Click="ApplicationBarIconButton_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/icons/people.contacts.png" Text="call" Click="ApplicationBarIconButton_Click_1"/>
+            <shell:ApplicationBarIconButton IconUri="/icons/send.poi.png" Text="send sms" Click="ApplicationBarIconButton_Click_2"/>
+            <shell:ApplicationBarIconButton IconUri="/icons/appbar.feature.email.rest.png" Text="send email" Click="ApplicationBarIconButton_Click_3"/>
+            
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="email us" Click="ApplicationBarMenuItem_Click"/>
+                <shell:ApplicationBarMenuItem Text="about us" Click="ApplicationBarMenuItem_Click_1"/>
+                </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

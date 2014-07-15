@@ -1,0 +1,63 @@
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\Bin\Debug\ApplicationIcon.png
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\Bin\Debug\Background.png
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\Bin\Debug\My_Location.dll
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\Bin\Debug\My_Location.pdb
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\Bin\Debug\AppManifest.xaml
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\Bin\Debug\My_Location.xap
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\obj\Debug\App.g.i.cs
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\obj\Debug\MainPage.g.i.cs
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\obj\Debug\My_Location.g.resources
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\obj\Debug\My_Location.dll
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\obj\Debug\My_Location.pdb
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\obj\Debug\XapCacheFile.xml
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\Bin\Debug\icons\dialpad.png
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\Bin\Debug\icons\send.poi.png
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\Bin\Debug\icons\social.like.png
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\Bin\Debug\icons\people.groups.png
+c:\users\sau752\documents\visual studio 2010\Projects\My_Location\My_Location\obj\Debug\aboutUs.g.i.cs
+C:\Users\sau752\Documents\Visual Studio 2010\Projects\My_Location\My_Location\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\sau752\Documents\Visual Studio 2010\Projects\My_Location\My_Location\obj\Debug\My_Location.csprojResolveAssemblyReference.cache
+C:\Users\sau752\Documents\Visual Studio 2010\Projects\My_Location\My_Location\Bin\Debug\icons\appbar.feature.email.rest.png
+C:\Users\sau752\Documents\Visual Studio 2010\Projects\My_Location\My_Location\Bin\Debug\icons\people.contacts.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\Bin\Debug\ApplicationIcon.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\Bin\Debug\Background.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\Bin\Debug\icons\appbar.feature.email.rest.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\Bin\Debug\icons\dialpad.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\Bin\Debug\icons\send.poi.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\Bin\Debug\icons\social.like.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\Bin\Debug\icons\people.groups.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\Bin\Debug\icons\people.contacts.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\Bin\Debug\My_Location.dll
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\Bin\Debug\My_Location.pdb
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\Bin\Debug\AppManifest.xaml
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\Bin\Debug\My_Location.xap
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\Bin\Debug\Newtonsoft.Json.xml
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\obj\Debug\My_Location.csprojResolveAssemblyReference.cache
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\obj\Debug\App.g.cs
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\obj\Debug\aboutUs.g.cs
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\obj\Debug\MainPage.g.cs
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\obj\Debug\My_Location.g.resources
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\obj\Debug\My_Location.dll
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\obj\Debug\My_Location.pdb
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\Projects\My_Location\My_Location\obj\Debug\XapCacheFile.xml
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\Bin\Debug\ApplicationIcon.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\Bin\Debug\Background.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\Bin\Debug\icons\appbar.feature.email.rest.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\Bin\Debug\icons\dialpad.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\Bin\Debug\icons\send.poi.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\Bin\Debug\icons\social.like.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\Bin\Debug\icons\people.groups.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\Bin\Debug\icons\people.contacts.png
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\Bin\Debug\My_Location.dll
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\Bin\Debug\My_Location.pdb
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\Bin\Debug\AppManifest.xaml
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\Bin\Debug\My_Location.xap
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\Bin\Debug\Newtonsoft.Json.xml
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\obj\Debug\My_Location.csprojResolveAssemblyReference.cache
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\obj\Debug\App.g.cs
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\obj\Debug\aboutUs.g.cs
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\obj\Debug\MainPage.g.cs
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\obj\Debug\My_Location.g.resources
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\obj\Debug\My_Location.dll
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\obj\Debug\My_Location.pdb
+E:\STUDY MATERIAL\MOBILE PLATFORM\WINDOWS PHONE\My_Location\My_Location\obj\Debug\XapCacheFile.xml
